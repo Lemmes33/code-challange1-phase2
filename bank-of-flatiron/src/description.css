@@ -1,0 +1,11 @@
+.description-placeholder{
+    display: flex;
+    margin-left: 280px;
+    margin-top: -39px;
+}
+input {
+    border: 1px solid #b3b0b0;
+    border-radius: 4px;
+    padding: 5px;
+    color: black;
+  }
