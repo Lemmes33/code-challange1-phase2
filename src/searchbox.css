@@ -1,0 +1,31 @@
+.search-component {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .search-box {
+    flex: 1; 
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .search-button i {
+    font-size: 18px;
+    color: #065cfa;
+  }
+  
+  .search-box:focus,
+  .search-button:hover i {
+    color: #000000; /* Blue on focus/hover */
+  }
+  
