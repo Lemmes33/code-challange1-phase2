@@ -8,6 +8,7 @@ import Category from './Category';
 import Amount from './Amount';
 import Button from './Button';
 import Display from './Display';
+import List from './List';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Button />
       {/* display */}
       <Display />
+      
     </div>
   );
 }
